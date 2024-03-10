@@ -29,7 +29,6 @@ public class GuessNumberGame {
             throw new IllegalArgumentException();
         }
     }
-
     public void play() {
         System.out.println("Zagrajmy. Zgadnij liczbę z zakresu <1," + M + ">"); // range of numbers
 
